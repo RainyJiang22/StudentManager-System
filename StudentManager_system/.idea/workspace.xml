@@ -35,7 +35,20 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="student_layout.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -2318,6 +2331,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/student_layout_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/student_login_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/student_layout.xml" />
       </list>
     </option>
   </component>
@@ -2327,7 +2341,7 @@
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -2586,7 +2600,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="61" width="1151" height="594" extended-state="0" />
+    <frame x="158" y="0" width="1151" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Android Profiler" />
@@ -2594,7 +2609,7 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Build Variants" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50043976" side_tool="true" weight="0.22869022" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50043976" side_tool="true" visible="true" weight="0.15341702" />
       <window_info anchor="right" id="Preview" order="1" weight="0.5013724" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3298122" />
@@ -2603,7 +2618,7 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.26121372" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49956024" weight="0.34117648" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32867134" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -2783,6 +2798,16 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/student_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>

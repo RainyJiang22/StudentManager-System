@@ -1,8 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#e6e6e6"
+android:paddingBottom="10dp"
+android:paddingLeft="10dp"
+android:paddingRight="10dp">
+
+<!-- 登录后的管理员界面-->
+
+
+<TextView
+    android:id="@+id/tv1"
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="欢迎使用Jacky、"
+    android:textSize="25sp" />
+
+<TextView
+    android:id="@+id/tv2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tv1"
+    android:layout_marginTop="10dp"
+    android:text="管理系统"
+    android:layout_marginLeft="25dp"
+    android:textSize="20sp" />
+
+<com.example.studentmanager_system.Tools.RoundImageView
+    android:id="@+id/pic"
+    android:layout_width="50dp"
+    android:layout_height="80dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="50dp"
+    android:layout_toRightOf="@+id/tv1"
+    android:layout_marginRight="10dp"
+    android:src="@drawable/admin_photo"
+    />
+
+<Button
+    style="@style/common_button_style"
+    android:id="@+id/admin_activity_select"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginLeft="70dp"
+    android:text="查询学生信息"/>
+
+
+<Button
+    style="@style/common_button_style"
+    android:id="@+id/admin_activity_add"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_below="@+id/admin_activity_select"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="70dp"
+    android:text="添加学生信息"/>
+
+
+<Button
+    style="@style/common_button_style"
+    android:id="@+id/admin_activity_order"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_below="@+id/admin_activity_add"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="70dp"
+    android:gravity="center"
+    android:text="查看总成绩排名"/>
+
+<TextView
+    android:id="@+id/admin_activity_forceOffline"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="30dp"
+    android:text="强制下线"
+    android:textSize="15sp"
+    android:textColor="@color/vertical_sep_color"/>
 
 
 </RelativeLayout>

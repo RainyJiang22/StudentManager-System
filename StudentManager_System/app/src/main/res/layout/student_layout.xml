@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!-- 登录后的学生界面-->
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="欢迎使用Jacky、"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="管理系统"
+        android:textSize="20sp" />
+
+    <com.example.studentmanager_system.Tools.RoundImageView
+        android:id="@+id/pic"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/tv1"
+        android:src="@drawable/student_photo" />
+
+    <Button
+        android:id="@+id/student_activity_selectInfo"
+        style="@style/common_button_style"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:text="查询个人信息" />
+
+
+    <Button
+        android:id="@+id/student_activity_changePassword"
+        style="@style/common_button_style"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student_activity_selectInfo"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:text="修改密码" />
+
+
+</RelativeLayout>
