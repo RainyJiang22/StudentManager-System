@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--学生登录界面-->
+
+    <com.example.studentmanager_system.Tools.RoundImageView
+        android:id="@+id/student_layout_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/student_photo"/>
+
+    <EditText
+        android:id="@+id/student_loging_activity_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/student_layout_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_box"
+        android:gravity="center"
+        android:hint="请输入账号"
+        android:maxLines="11"
+        android:paddingLeft="@dimen/input_box_left_padding"
+        android:inputType="numberDecimal"
+        android:textColor="@color/grey_text"/>
+
+    <EditText
+        android:id="@+id/student_login_activity_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/student_loging_activity_name_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_box"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:inputType="numberPassword"
+        android:maxLines="11"
+        android:paddingLeft="@dimen/input_box_left_padding"
+        android:textColor="@color/grey_text" />
+
+
+    <Button
+        android:id="@+id/student_login_activity_login"
+        style="@style/common_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/student_login_activity_password_input"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="登录" />
+</RelativeLayout>
