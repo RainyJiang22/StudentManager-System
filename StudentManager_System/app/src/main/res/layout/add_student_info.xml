@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:text="姓        名："
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/add_student_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="性        别："
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/add_student_layout_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_name"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sex"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="学        号："
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/add_student_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_sex"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/name"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="手  机  号："
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/add_student_layout_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_id"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/name"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="密        码："
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/add_student_layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_number"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/name"
+        android:inputType="numberDecimal" />
+
+
+    <TextView
+        android:id="@+id/math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="数学成绩："
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/add_student_layout_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_password"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/name"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/chinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/math"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="语文成绩："
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/add_student_layout_chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_math"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/name"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chinese"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:text="英语成绩："
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/add_student_layout_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_layout_chinese"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@+id/name"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/add_student_layout_sure"
+        style="@style/common_button_style"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="确定" />
+
+
+</RelativeLayout>

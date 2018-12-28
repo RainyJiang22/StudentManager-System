@@ -1082,8 +1082,20 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id admin_activity_add
+id admin_activity_forceOffline
+id admin_activity_order
+id admin_activity_select
 id admin_layout_pic
+id admin_login_activity_forgetNum
+id admin_login_activity_login
 id admin_login_activity_name_input
+id admin_login_activity_password_input
+id admin_login_activity_register
+id admin_register_first_password
+id admin_register_info
+id admin_register_name
+id admin_register_second_password
 id alertTitle
 id all
 id always
@@ -1153,6 +1165,11 @@ id line1
 id line3
 id listMode
 id list_item
+id main_activity_admin
+id main_activity_admin_pic
+id main_activity_student
+id main_activity_student_pic
+id main_activity_title
 id masked
 id message
 id middle
@@ -1174,6 +1191,7 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
+id pic
 id pin
 id progress_circular
 id progress_horizontal
@@ -1221,6 +1239,12 @@ id src_over
 id standard
 id start
 id stretch
+id student_activity_changePassword
+id student_activity_selectInfo
+id student_layout_pic
+id student_login_activity_login
+id student_login_activity_password_input
+id student_loging_activity_name_input
 id submenuarrow
 id submit_area
 id tabMode
@@ -1249,6 +1273,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tt2
+id tt3
+id tv1
+id tv2
 id uniform
 id unlabeled
 id up
@@ -1330,9 +1357,12 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout register
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout student_layout
+layout student_login_layout
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -1887,6 +1917,7 @@ style Widget_MaterialComponents_TextInputLayout_OutlinedBox
 style Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense
 style Widget_MaterialComponents_Toolbar
 style Widget_Support_CoordinatorLayout
+style common_button_style
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
