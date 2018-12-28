@@ -1,18 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/main_activity_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="欢迎使用学生管理系统"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_title"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="请选择用户类型"
+        android:textSize="20sp" />
+
+
+    <!--将图片设置为圆形-->
+    <com.example.studentmanager_system.Tools.RoundImageView
+        android:id="@+id/main_activity_admin_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/admin_photo"
+        />
+
+
+    <Button
+        android:id="@+id/main_activity_admin"
+        style="@style/common_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/main_activity_admin_pic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@+id/main_activity_admin_pic"
+        android:text="管理员" />
+
+    <com.example.studentmanager_system.Tools.RoundImageView
+        android:id="@+id/main_activity_student_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/main_activity_admin_pic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/student_photo" />
+
+
+    <Button
+        android:id="@+id/main_activity_student"
+        style="@style/common_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_activity_admin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/main_activity_student_pic"
+        android:text="学生" />
+
+
+</RelativeLayout>
