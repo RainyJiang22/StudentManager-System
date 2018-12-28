@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="common_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_next_height</item>
+        <item name="android:background">@drawable/selector_red_corners_button</item>
+        <item name="android:padding">6.0dip</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
 </resources>

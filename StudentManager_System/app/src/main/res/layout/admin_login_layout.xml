@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.studentmanager_system.Tools.RoundImageView
+        android:id="@+id/admin_layout_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/admin_photo"/>
+
+
+   <android.support.design.widget.TextInputLayout
+       android:id="@+id/tt2"
+       android:layout_below="@+id/admin_layout_pic"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+       <EditText
+           android:id="@+id/admin_login_activity_name_input"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_below="@+id/admin_layout_pic"
+           android:layout_centerHorizontal="true"
+           android:layout_marginLeft="50dp"
+           android:layout_marginRight="50dp"
+           android:layout_marginTop="20dp"
+           android:background="@drawable/input_box"
+           android:gravity="center"
+           android:hint="请输入账户"
+           android:maxLines="1"
+           android:paddingLeft="@dimen/input_box_left_padding"
+           android:textColor="@color/grey_text" />
+
+   </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tt2">
+        <EditText
+            android:id="@+id/admin_login_activity_password_input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tt2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/input_box"
+            android:gravity="center"
+            android:hint="请输入密码"
+            android:inputType="numberPassword"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/input_box_left_padding"
+            android:textColor="@color/grey_text" />
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:id="@+id/admin_login_activity_login"
+        style="@style/common_button_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tt3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="登录" />
+
+    <TextView
+        android:id="@+id/admin_login_activity_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/admin_login_activity_login"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="注册"
+        android:textColor="@color/blue_text"
+        android:textSize="@dimen/font_normal" />
+
+    <TextView
+        android:id="@+id/admin_login_activity_forgetNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/admin_login_activity_login"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:text="忘记密码?"
+        android:textColor="@color/blue_text"
+        android:textSize="@dimen/font_normal" />
+
+
+
+</RelativeLayout>

@@ -4,6 +4,25 @@
             "outputFile": "C:\\Users\\Jacky\\AndroidStudioProjects\\StudentManager-System\\StudentManager_System\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Jacky\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\5bf3b79a408e30d3a11b165e413e3ab7\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,680",
+                        "endLines": "2,3,4,5,6,7,9,10,11,15",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,675,847"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1173,1236",
+                        "endLines": "10,11,12,13,14,15,17,18,19,23",
+                        "endColumns": "59,69,70,71,57,57,10,63,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1231,1403"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Jacky\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\d2dd6e9f76efc53eee123cd4d95af730\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",

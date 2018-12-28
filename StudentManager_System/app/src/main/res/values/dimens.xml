@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="edit_box_height">44.0dip</dimen>
+    <dimen name="input_box_left_padding">9.0dip</dimen>
+    <dimen name="notice_vertical_padding">8.0dip</dimen>
+    <dimen name="font_large">18.0sp</dimen>
+    <dimen name="font_normal">16.0sp</dimen>
+    <dimen name="font_medium">14.0sp</dimen>
+    <dimen name="font_small">12.0sp</dimen>
+    <dimen name="btn_next_height">48.0dip</dimen>
+    <dimen name="cell_height">48.0dip</dimen>
+    <dimen name="vertical_sep_width">1.0px</dimen>
+</resources>
