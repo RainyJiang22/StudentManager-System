@@ -18,12 +18,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.studentmanager_system.MainActivity" >
+        <activity android:name="com.example.studentmanager_system.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.studentmanager_system.Activity.admin_login_activity" >
+        </activity>
+        <activity android:name="com.example.studentmanager_system.Activity.student_login_activity" >
         </activity>
     </application>
 
