@@ -33,6 +33,12 @@
         </activity>
         <activity android:name="com.example.studentmanager_system.Activity.studentActivity" >
         </activity>
+        <activity android:name="com.example.studentmanager_system.Activity.studentinfoActivity" >
+        </activity>
+        <activity android:name="com.example.studentmanager_system.Activity.add_studentinfoActivity" >
+        </activity>
+        <activity android:name="com.example.studentmanager_system.Activity.student_total_score" >
+        </activity>
     </application>
 
 </manifest>

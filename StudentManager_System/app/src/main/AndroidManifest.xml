@@ -27,6 +27,14 @@
         <activity android:name=".Activity.studentActivity">
         </activity>
 
+        <activity android:name=".Activity.studentinfoActivity">
+        </activity>
+
+        <activity android:name=".Activity.add_studentinfoActivity">
+        </activity>
+
+        <activity android:name=".Activity.student_total_score">
+        </activity>
 
     </application>
 
