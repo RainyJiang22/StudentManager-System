@@ -15,4 +15,10 @@
    - 修改密码
    - 使用androidStudio自带的sqlite数据库进行实现的
 
-
+### UI部分
+     没做太多的修饰，主要用了圆形头像，自定义圆角button按钮，
+     自定义Alertdialog布局,然后就是相对布局和线性布局
+   - 圆形头像的参考地址如下：
+        http://blog.csdn.net/android_dong/article/details/41989499
+   - 自定义头像的参考地址如下：
+         http://blog.csdn.net/jdsjlzx/article/details/42744095
