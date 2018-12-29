@@ -36,31 +36,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="studentActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="studentActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="200">
+              <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/adminActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1026#1271#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1735#1978#0" expanded="true" />
-                <element signature="e#1977#1978#0" expanded="true" />
-                <element signature="e#2062#2331#0" expanded="true" />
-                <element signature="e#2330#2331#0" expanded="true" />
+                <element signature="e#1194#3201#0" expanded="true" />
+                <element signature="e#3200#3201#0" expanded="true" />
+                <element signature="e#3248#5604#0" expanded="true" />
+                <element signature="e#5603#5604#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +55,8 @@
       <file leaf-file-name="studentinfoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentinfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="51" column="90" lean-forward="true" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+            <state relative-caret-position="-375">
+              <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1541#6244#0" expanded="true" />
@@ -99,20 +85,8 @@
       <file leaf-file-name="admin_login_activity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/admin_login_activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_studentinfoActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/add_studentinfoActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2426,23 +2400,23 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Util/StudentScoreAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/register.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/add_studentinfoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/admin_login_activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/student_login_activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentinfoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/student_total_score.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Tools/MyBroadcastBestPractice.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/adminActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Util/Student.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/adminActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/add_studentinfoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="105" />
-    <option name="y" value="385" />
+    <option name="x" value="113" />
+    <option name="y" value="70" />
     <option name="width" value="1820" />
     <option name="height" value="787" />
   </component>
@@ -3041,16 +3015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/add_studentinfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/student_login_activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -3072,16 +3036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/admin_login_activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-725">
@@ -3092,16 +3046,6 @@
             <element signature="e#1304#1305#0" expanded="true" />
             <element signature="e#1365#1616#0" expanded="true" />
             <element signature="e#1615#1616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3165,10 +3109,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/adminActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1026#1271#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1735#1978#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2062#2331#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentinfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="51" column="90" lean-forward="true" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+        <state relative-caret-position="-375">
+          <caret line="51" column="90" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1541#6244#0" expanded="true" />
@@ -3179,18 +3139,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/adminActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/add_studentinfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="78" />
+        <state relative-caret-position="-200">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1026#1271#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1735#1978#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-            <element signature="e#2062#2331#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2126#4447#0" expanded="true" />
+            <element signature="e#4446#4447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/admin_login_activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/studentmanager_system/Activity/studentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="115" column="58" selection-start-line="115" selection-start-column="58" selection-end-line="115" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1194#3201#0" expanded="true" />
+            <element signature="e#3200#3201#0" expanded="true" />
+            <element signature="e#3248#5604#0" expanded="true" />
+            <element signature="e#5603#5604#0" expanded="true" />
           </folding>
         </state>
       </provider>
