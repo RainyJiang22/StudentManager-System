@@ -24,6 +24,10 @@
 
         <activity android:name=".Activity.adminActivity">
         </activity>
+        <activity android:name=".Activity.studentActivity">
+        </activity>
+
+
     </application>
 
 </manifest>

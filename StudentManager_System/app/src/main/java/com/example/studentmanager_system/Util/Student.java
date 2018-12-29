@@ -16,7 +16,7 @@ public class Student {
     private int order;//名次
 
 
-    public Student(String name, String sex, String id, String password, String number, int mathScore, int chineseScore, int englishScore, int order) {
+    public Student(int name, int sex, String id, int password, String number, String mathScore, String chineseScore, String englishScore, int order) {
         this.name = name;
         this.sex = sex;
         this.id = id;

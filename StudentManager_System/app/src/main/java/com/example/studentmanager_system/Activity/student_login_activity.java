@@ -1,5 +1,6 @@
 package com.example.studentmanager_system.Activity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -18,7 +19,7 @@ import com.example.studentmanager_system.Util.myDatabaseHelper;
 /**
  * 学生登录界面
  */
-public class student_login_activity extends AppCompatActivity {
+public class student_login_activity extends Activity {
     private EditText name;
     private EditText password;
     private Button login;

@@ -1,5 +1,6 @@
 package com.example.studentmanager_system.Activity;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
@@ -20,7 +21,7 @@ import com.example.studentmanager_system.Util.myDatabaseHelper;
 /**
  * 管理员登录界面
  */
-public class admin_login_activity extends AppCompatActivity {
+public class admin_login_activity extends Activity {
 
     private EditText name;//用户名
     private EditText password;//用户密码

@@ -1,7 +1,7 @@
 package com.example.studentmanager_system.Activity;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
@@ -15,7 +15,7 @@ import com.example.studentmanager_system.Util.myDatabaseHelper;
 /**
  * 登录主界面，主界面就先把数据库中的表先建好
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
    private long exit_time; //用于实现按两次返回键退出
     private Button admin;
     private Button student;
