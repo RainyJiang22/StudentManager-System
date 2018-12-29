@@ -58,7 +58,6 @@ public class studentActivity extends Activity {
                     int chineseScore = cursor.getInt(cursor.getColumnIndex("chineseScore"));
                     int englishScore = cursor.getInt(cursor.getColumnIndex("englishScore"));
                     int ranking = cursor.getInt(cursor.getColumnIndex("ranking"));
-
                     sb.append("姓名：" + name + "\n");
                     sb.append("学号：" + id + "\n");
                     sb.append("手机号：" + number + "\n");
@@ -90,13 +89,11 @@ public class studentActivity extends Activity {
                 builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     EditText firstPassword = (EditText) view.findViewById(R.id.student_change_password);
                     EditText secondPassword = (EditText) view.findViewById(R.id.student_change_password_second_password);
-
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         String first = firstPassword.getText().toString();
                         String second = secondPassword.getText().toString();
                         if (!TextUtils.isEmpty(first) && !TextUtils.isEmpty(second)) {
-
                             if (first.matches("[0-9]{6}") && second.matches("[0-9]{6}")) {
                                 if (second.equals(first)) {
                                     ID = intent.getStringExtra("id");//获取传入的学号用于修改密码
@@ -106,12 +103,9 @@ public class studentActivity extends Activity {
                                 } else {
                                     Toast.makeText(studentActivity.this, "两次密码不一致", Toast.LENGTH_SHORT).show();
                                 }
-
                             } else {
                                 Toast.makeText(studentActivity.this, "密码必须为6位数字", Toast.LENGTH_SHORT).show();
                             }
-
-
                         } else {
                             Toast.makeText(studentActivity.this, "密码不能为空", Toast.LENGTH_SHORT).show();
                         }

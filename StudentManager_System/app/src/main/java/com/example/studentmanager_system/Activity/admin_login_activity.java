@@ -121,8 +121,6 @@ public class admin_login_activity extends Activity {
                             }else{
                                 Toast.makeText(admin_login_activity.this, "密码为6位纯数字", Toast.LENGTH_SHORT).show();
                             }
-
-
                         } else{
                             Toast.makeText(admin_login_activity.this, "注册码错误", Toast.LENGTH_SHORT).show();
                         }

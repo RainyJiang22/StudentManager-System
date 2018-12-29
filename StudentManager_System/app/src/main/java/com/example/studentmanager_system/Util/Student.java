@@ -14,7 +14,6 @@ public class Student {
     private int EnglishScore;
     private int order;//名次
 
-
     public Student(int chineseScore, int englishScore, String id, int mathScore, String name, String number, String password, String sex,int order) {
 
         this.id = id;
@@ -28,39 +27,30 @@ public class Student {
         this.order=order;
     }
 
-
     public int getChineseScore() {
         return ChineseScore;
     }
-
     public int getEnglishScore() {
         return EnglishScore;
     }
-
     public String getId() {
         return id;
     }
-
     public int getMathScore() {
         return MathScore;
     }
-
     public String getName() {
         return name;
     }
-
     public String getNumber() {
         return number;
     }
-
     public String getPassword() {
         return password;
     }
-
     public String getSex() {
         return sex;
     }
-
     public int getOrder() {
         return order;
     }
